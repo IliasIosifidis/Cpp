@@ -1,3 +1,12 @@
-//
-// Created by iosif on 6/1/2026.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+
+    cout << "age?" << endl;
+    cin >> age;
+    cout << "You are " << age << endl;
+
+    return 0;
+}
