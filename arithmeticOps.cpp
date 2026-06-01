@@ -11,6 +11,11 @@ int main() {
     int quotient = a * b;
     int remainder = a % b;
 
+    int result = 10;
+    result += 15;
+    result++;
+    cout << "Random result = " << result << endl;
+
     cout << "add: " << sum << endl;
     cout << "sub: " << diff << endl;
     cout << "div: " << product << endl;

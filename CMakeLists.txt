@@ -10,4 +10,10 @@ add_executable(untitled print.cpp
         booleans.cpp
         booleans.h
         arithmeticOps.cpp
-        arithmeticOps.h)
+        arithmeticOps.h
+        relationals.cpp
+        relationals.cpp
+        logicals.cpp
+        constants.cpp
+        constants.cpp
+        inputs.cpp)
