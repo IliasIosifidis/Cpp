@@ -16,4 +16,8 @@ add_executable(untitled print.cpp
         logicals.cpp
         constants.cpp
         constants.cpp
-        inputs.cpp)
+        inputs.cpp
+        tips.cpp
+        tips.cpp
+        secretAgent.cpp
+        secretAgent.h)
