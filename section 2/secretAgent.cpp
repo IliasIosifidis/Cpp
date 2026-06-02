@@ -20,9 +20,10 @@ int main() {
 
     cout << "Level? 1-10" << endl;
     cin >> agentLevel;
+    cin.get();
 
     cout << "Toy? " << endl;
-    cin >> gadget;
+    getline(cin, gadget);
 
     cout << "Name:   " << fullName << endl;
     cout << "Alias:  " << secretAlias << endl;
