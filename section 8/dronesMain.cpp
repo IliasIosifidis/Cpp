@@ -22,7 +22,15 @@ int main() {
         battery = rand() % (100 + 1);
         droneFleet[i] = new Drone(model, battery);
     }
+
     printFleet(droneFleet, droneCount);
+
+    for (int i = 0; i < droneCount; i++) {
+        delete droneFleet[i];
+    }
+
+    droneFleet = nullptr;
+
 }
 
 void printFleet(Drone **fleet, int size) {
